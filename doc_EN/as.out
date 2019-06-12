@@ -1,0 +1,215 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{License Agreement}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{General Capabilities of the Assembler}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Supported Platforms}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Assembler Usage}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Hardware Requirements}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{Delivery}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Installation}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.4}{Start-Up Command, Parameters}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.5}{Format of the Input Files}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.6}{Format of the Listing}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.7}{Symbol Conventions}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.8}{Temporary Symbols}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.9}{Named Temporary Symbols}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.9.1}{Nameless Temporary Symbols}{section.2.9}% 15
+\BOOKMARK [2][-]{subsection.2.9.2}{Composed Temporary Symbols}{section.2.9}% 16
+\BOOKMARK [1][-]{section.2.10}{Formula Expressions}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.10.1}{Integer Constants}{section.2.10}% 18
+\BOOKMARK [2][-]{subsection.2.10.2}{Floating Point Constants}{section.2.10}% 19
+\BOOKMARK [2][-]{subsection.2.10.3}{String Constants}{section.2.10}% 20
+\BOOKMARK [2][-]{subsection.2.10.4}{Evaluation}{section.2.10}% 21
+\BOOKMARK [2][-]{subsection.2.10.5}{Operators}{section.2.10}% 22
+\BOOKMARK [2][-]{subsection.2.10.6}{Functions}{section.2.10}% 23
+\BOOKMARK [1][-]{section.2.11}{Forward References and Other Disasters}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.12}{Register Symbols}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.13}{Sharefile}{chapter.2}% 26
+\BOOKMARK [1][-]{section.2.14}{Processor Aliases}{chapter.2}% 27
+\BOOKMARK [0][-]{chapter.3}{Pseudo Instructions}{}% 28
+\BOOKMARK [1][-]{section.3.1}{Definitions}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.1.1}{SET, EQU, and CONSTANT}{section.3.1}% 30
+\BOOKMARK [2][-]{subsection.3.1.2}{SFR and SFRB}{section.3.1}% 31
+\BOOKMARK [2][-]{subsection.3.1.3}{XSFR and YSFR}{section.3.1}% 32
+\BOOKMARK [2][-]{subsection.3.1.4}{LABEL}{section.3.1}% 33
+\BOOKMARK [2][-]{subsection.3.1.5}{BIT}{section.3.1}% 34
+\BOOKMARK [2][-]{subsection.3.1.6}{DBIT}{section.3.1}% 35
+\BOOKMARK [2][-]{subsection.3.1.7}{PORT}{section.3.1}% 36
+\BOOKMARK [2][-]{subsection.3.1.8}{REG and NAMEREG}{section.3.1}% 37
+\BOOKMARK [2][-]{subsection.3.1.9}{LIV and RIV}{section.3.1}% 38
+\BOOKMARK [2][-]{subsection.3.1.10}{CHARSET}{section.3.1}% 39
+\BOOKMARK [2][-]{subsection.3.1.11}{CODEPAGE}{section.3.1}% 40
+\BOOKMARK [2][-]{subsection.3.1.12}{ENUM}{section.3.1}% 41
+\BOOKMARK [2][-]{subsection.3.1.13}{PUSHV and POPV}{section.3.1}% 42
+\BOOKMARK [1][-]{section.3.2}{Code Modification}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.2.1}{ORG}{section.3.2}% 44
+\BOOKMARK [2][-]{subsection.3.2.2}{CPU}{section.3.2}% 45
+\BOOKMARK [2][-]{subsection.3.2.3}{SUPMODE, FPU, PMMU}{section.3.2}% 46
+\BOOKMARK [2][-]{subsection.3.2.4}{FULLPMMU}{section.3.2}% 47
+\BOOKMARK [2][-]{subsection.3.2.5}{PADDING}{section.3.2}% 48
+\BOOKMARK [2][-]{subsection.3.2.6}{PACKING}{section.3.2}% 49
+\BOOKMARK [2][-]{subsection.3.2.7}{MAXMODE}{section.3.2}% 50
+\BOOKMARK [2][-]{subsection.3.2.8}{EXTMODE and LWORDMODE}{section.3.2}% 51
+\BOOKMARK [2][-]{subsection.3.2.9}{SRCMODE}{section.3.2}% 52
+\BOOKMARK [2][-]{subsection.3.2.10}{BIGENDIAN}{section.3.2}% 53
+\BOOKMARK [2][-]{subsection.3.2.11}{WRAPMODE}{section.3.2}% 54
+\BOOKMARK [2][-]{subsection.3.2.12}{SEGMENT}{section.3.2}% 55
+\BOOKMARK [2][-]{subsection.3.2.13}{PHASE and DEPHASE}{section.3.2}% 56
+\BOOKMARK [2][-]{subsection.3.2.14}{SAVE and RESTORE}{section.3.2}% 57
+\BOOKMARK [2][-]{subsection.3.2.15}{ASSUME}{section.3.2}% 58
+\BOOKMARK [2][-]{subsection.3.2.16}{EMULATED}{section.3.2}% 59
+\BOOKMARK [2][-]{subsection.3.2.17}{BRANCHEXT}{section.3.2}% 60
+\BOOKMARK [1][-]{section.3.3}{Data Definitions}{chapter.3}% 61
+\BOOKMARK [2][-]{subsection.3.3.1}{DC[.Size]}{section.3.3}% 62
+\BOOKMARK [2][-]{subsection.3.3.2}{DS[.Size]}{section.3.3}% 63
+\BOOKMARK [2][-]{subsection.3.3.3}{DB,DW,DD,DQ, and DT}{section.3.3}% 64
+\BOOKMARK [2][-]{subsection.3.3.4}{DS, DS8}{section.3.3}% 65
+\BOOKMARK [2][-]{subsection.3.3.5}{BYT or FCB}{section.3.3}% 66
+\BOOKMARK [2][-]{subsection.3.3.6}{BYTE}{section.3.3}% 67
+\BOOKMARK [2][-]{subsection.3.3.7}{DC8}{section.3.3}% 68
+\BOOKMARK [2][-]{subsection.3.3.8}{ADR or FDB}{section.3.3}% 69
+\BOOKMARK [2][-]{subsection.3.3.9}{WORD}{section.3.3}% 70
+\BOOKMARK [2][-]{subsection.3.3.10}{DW16}{section.3.3}% 71
+\BOOKMARK [2][-]{subsection.3.3.11}{LONG}{section.3.3}% 72
+\BOOKMARK [2][-]{subsection.3.3.12}{SINGLE, DOUBLE, and EXTENDED}{section.3.3}% 73
+\BOOKMARK [2][-]{subsection.3.3.13}{FLOAT and DOUBLE}{section.3.3}% 74
+\BOOKMARK [2][-]{subsection.3.3.14}{EFLOAT, BFLOAT, and TFLOAT}{section.3.3}% 75
+\BOOKMARK [2][-]{subsection.3.3.15}{Qxx and LQxx}{section.3.3}% 76
+\BOOKMARK [2][-]{subsection.3.3.16}{DATA}{section.3.3}% 77
+\BOOKMARK [2][-]{subsection.3.3.17}{ZERO}{section.3.3}% 78
+\BOOKMARK [2][-]{subsection.3.3.18}{FB and FW}{section.3.3}% 79
+\BOOKMARK [2][-]{subsection.3.3.19}{ASCII and ASCIZ}{section.3.3}% 80
+\BOOKMARK [2][-]{subsection.3.3.20}{STRING and RSTRING}{section.3.3}% 81
+\BOOKMARK [2][-]{subsection.3.3.21}{FCC}{section.3.3}% 82
+\BOOKMARK [2][-]{subsection.3.3.22}{DFS or RMB}{section.3.3}% 83
+\BOOKMARK [2][-]{subsection.3.3.23}{BLOCK}{section.3.3}% 84
+\BOOKMARK [2][-]{subsection.3.3.24}{SPACE}{section.3.3}% 85
+\BOOKMARK [2][-]{subsection.3.3.25}{RES}{section.3.3}% 86
+\BOOKMARK [2][-]{subsection.3.3.26}{BSS}{section.3.3}% 87
+\BOOKMARK [2][-]{subsection.3.3.27}{DSB and DSW}{section.3.3}% 88
+\BOOKMARK [2][-]{subsection.3.3.28}{DS16}{section.3.3}% 89
+\BOOKMARK [2][-]{subsection.3.3.29}{ALIGN}{section.3.3}% 90
+\BOOKMARK [2][-]{subsection.3.3.30}{LTORG}{section.3.3}% 91
+\BOOKMARK [1][-]{section.3.4}{Macro Instructions}{chapter.3}% 92
+\BOOKMARK [2][-]{subsection.3.4.1}{MACRO}{section.3.4}% 93
+\BOOKMARK [2][-]{subsection.3.4.2}{IRP}{section.3.4}% 94
+\BOOKMARK [2][-]{subsection.3.4.3}{IRPC}{section.3.4}% 95
+\BOOKMARK [2][-]{subsection.3.4.4}{REPT}{section.3.4}% 96
+\BOOKMARK [2][-]{subsection.3.4.5}{WHILE}{section.3.4}% 97
+\BOOKMARK [2][-]{subsection.3.4.6}{EXITM}{section.3.4}% 98
+\BOOKMARK [2][-]{subsection.3.4.7}{SHIFT}{section.3.4}% 99
+\BOOKMARK [2][-]{subsection.3.4.8}{MAXNEST}{section.3.4}% 100
+\BOOKMARK [2][-]{subsection.3.4.9}{FUNCTION}{section.3.4}% 101
+\BOOKMARK [1][-]{section.3.5}{Structures}{chapter.3}% 102
+\BOOKMARK [2][-]{subsection.3.5.1}{Definition}{section.3.5}% 103
+\BOOKMARK [2][-]{subsection.3.5.2}{Usage}{section.3.5}% 104
+\BOOKMARK [2][-]{subsection.3.5.3}{Nested Structures}{section.3.5}% 105
+\BOOKMARK [2][-]{subsection.3.5.4}{Unions}{section.3.5}% 106
+\BOOKMARK [2][-]{subsection.3.5.5}{Structures and Sections}{section.3.5}% 107
+\BOOKMARK [1][-]{section.3.6}{Conditional Assembly}{chapter.3}% 108
+\BOOKMARK [2][-]{subsection.3.6.1}{IF / ELSEIF / ENDIF}{section.3.6}% 109
+\BOOKMARK [2][-]{subsection.3.6.2}{SWITCH / CASE / ELSECASE / ENDCASE}{section.3.6}% 110
+\BOOKMARK [1][-]{section.3.7}{Listing Control}{chapter.3}% 111
+\BOOKMARK [2][-]{subsection.3.7.1}{PAGE}{section.3.7}% 112
+\BOOKMARK [2][-]{subsection.3.7.2}{NEWPAGE}{section.3.7}% 113
+\BOOKMARK [2][-]{subsection.3.7.3}{MACEXP}{section.3.7}% 114
+\BOOKMARK [2][-]{subsection.3.7.4}{LISTING}{section.3.7}% 115
+\BOOKMARK [2][-]{subsection.3.7.5}{PRTINIT and PRTEXIT}{section.3.7}% 116
+\BOOKMARK [2][-]{subsection.3.7.6}{TITLE}{section.3.7}% 117
+\BOOKMARK [2][-]{subsection.3.7.7}{RADIX}{section.3.7}% 118
+\BOOKMARK [2][-]{subsection.3.7.8}{OUTRADIX}{section.3.7}% 119
+\BOOKMARK [1][-]{section.3.8}{Local Symbols}{chapter.3}% 120
+\BOOKMARK [2][-]{subsection.3.8.1}{Basic Definition \(SECTION/ENDSECTION\)}{section.3.8}% 121
+\BOOKMARK [2][-]{subsection.3.8.2}{Nesting and Scope Rules}{section.3.8}% 122
+\BOOKMARK [2][-]{subsection.3.8.3}{PUBLIC and GLOBAL}{section.3.8}% 123
+\BOOKMARK [2][-]{subsection.3.8.4}{FORWARD}{section.3.8}% 124
+\BOOKMARK [2][-]{subsection.3.8.5}{Performance Aspects}{section.3.8}% 125
+\BOOKMARK [1][-]{section.3.9}{Miscellaneous}{chapter.3}% 126
+\BOOKMARK [2][-]{subsection.3.9.1}{SHARED}{section.3.9}% 127
+\BOOKMARK [2][-]{subsection.3.9.2}{INCLUDE}{section.3.9}% 128
+\BOOKMARK [2][-]{subsection.3.9.3}{BINCLUDE}{section.3.9}% 129
+\BOOKMARK [2][-]{subsection.3.9.4}{MESSAGE, WARNING, ERROR, and FATAL}{section.3.9}% 130
+\BOOKMARK [2][-]{subsection.3.9.5}{READ}{section.3.9}% 131
+\BOOKMARK [2][-]{subsection.3.9.6}{RELAXED}{section.3.9}% 132
+\BOOKMARK [2][-]{subsection.3.9.7}{END}{section.3.9}% 133
+\BOOKMARK [0][-]{chapter.4}{Processor-specific Hints}{}% 134
+\BOOKMARK [1][-]{section.4.1}{6811}{chapter.4}% 135
+\BOOKMARK [1][-]{section.4.2}{PowerPC}{chapter.4}% 136
+\BOOKMARK [1][-]{section.4.3}{DSP56xxx}{chapter.4}% 137
+\BOOKMARK [1][-]{section.4.4}{H8/300}{chapter.4}% 138
+\BOOKMARK [1][-]{section.4.5}{SH7000/7600/7700}{chapter.4}% 139
+\BOOKMARK [1][-]{section.4.6}{MELPS-4500}{chapter.4}% 140
+\BOOKMARK [1][-]{section.4.7}{6502UNDOC}{chapter.4}% 141
+\BOOKMARK [1][-]{section.4.8}{MELPS-740}{chapter.4}% 142
+\BOOKMARK [1][-]{section.4.9}{MELPS-7700/65816}{chapter.4}% 143
+\BOOKMARK [1][-]{section.4.10}{M16}{chapter.4}% 144
+\BOOKMARK [1][-]{section.4.11}{4004/4040}{chapter.4}% 145
+\BOOKMARK [1][-]{section.4.12}{MCS-48}{chapter.4}% 146
+\BOOKMARK [1][-]{section.4.13}{MCS-51}{chapter.4}% 147
+\BOOKMARK [1][-]{section.4.14}{MCS-251}{chapter.4}% 148
+\BOOKMARK [1][-]{section.4.15}{8085UNDOC}{chapter.4}% 149
+\BOOKMARK [1][-]{section.4.16}{8086..V35}{chapter.4}% 150
+\BOOKMARK [1][-]{section.4.17}{8X30x}{chapter.4}% 151
+\BOOKMARK [1][-]{section.4.18}{XA}{chapter.4}% 152
+\BOOKMARK [1][-]{section.4.19}{AVR}{chapter.4}% 153
+\BOOKMARK [1][-]{section.4.20}{Z80UNDOC}{chapter.4}% 154
+\BOOKMARK [1][-]{section.4.21}{Z380}{chapter.4}% 155
+\BOOKMARK [1][-]{section.4.22}{Z8 and eZ8}{chapter.4}% 156
+\BOOKMARK [1][-]{section.4.23}{TLCS-900\(L\)}{chapter.4}% 157
+\BOOKMARK [1][-]{section.4.24}{TLCS-90}{chapter.4}% 158
+\BOOKMARK [1][-]{section.4.25}{TLCS-870}{chapter.4}% 159
+\BOOKMARK [1][-]{section.4.26}{TLCS-47}{chapter.4}% 160
+\BOOKMARK [1][-]{section.4.27}{TLCS-9000}{chapter.4}% 161
+\BOOKMARK [1][-]{section.4.28}{29xxx}{chapter.4}% 162
+\BOOKMARK [1][-]{section.4.29}{80C16x}{chapter.4}% 163
+\BOOKMARK [1][-]{section.4.30}{PIC16C5x/16C8x}{chapter.4}% 164
+\BOOKMARK [1][-]{section.4.31}{PIC 17C4x}{chapter.4}% 165
+\BOOKMARK [1][-]{section.4.32}{ST6}{chapter.4}% 166
+\BOOKMARK [1][-]{section.4.33}{ST7}{chapter.4}% 167
+\BOOKMARK [1][-]{section.4.34}{ST9}{chapter.4}% 168
+\BOOKMARK [1][-]{section.4.35}{6804}{chapter.4}% 169
+\BOOKMARK [1][-]{section.4.36}{TMS3201x}{chapter.4}% 170
+\BOOKMARK [1][-]{section.4.37}{TMS320C2x}{chapter.4}% 171
+\BOOKMARK [1][-]{section.4.38}{TMS320C3x}{chapter.4}% 172
+\BOOKMARK [1][-]{section.4.39}{TMS9900}{chapter.4}% 173
+\BOOKMARK [1][-]{section.4.40}{TMS70Cxx}{chapter.4}% 174
+\BOOKMARK [1][-]{section.4.41}{TMS370xxx}{chapter.4}% 175
+\BOOKMARK [1][-]{section.4.42}{MSP430}{chapter.4}% 176
+\BOOKMARK [1][-]{section.4.43}{COP8 \046 SC/MP}{chapter.4}% 177
+\BOOKMARK [1][-]{section.4.44}{SC144xxx}{chapter.4}% 178
+\BOOKMARK [1][-]{section.4.45}{75K0}{chapter.4}% 179
+\BOOKMARK [1][-]{section.4.46}{78K0}{chapter.4}% 180
+\BOOKMARK [1][-]{section.4.47}{78K2}{chapter.4}% 181
+\BOOKMARK [1][-]{section.4.48}{uPD772x}{chapter.4}% 182
+\BOOKMARK [1][-]{section.4.49}{F2MC16L}{chapter.4}% 183
+\BOOKMARK [0][-]{chapter.5}{File Formats}{}% 184
+\BOOKMARK [1][-]{section.5.1}{Code Files}{chapter.5}% 185
+\BOOKMARK [1][-]{section.5.2}{Debug Files}{chapter.5}% 186
+\BOOKMARK [0][-]{chapter.6}{Utility Programs}{}% 187
+\BOOKMARK [1][-]{section.6.1}{PLIST}{chapter.6}% 188
+\BOOKMARK [1][-]{section.6.2}{BIND}{chapter.6}% 189
+\BOOKMARK [1][-]{section.6.3}{P2HEX}{chapter.6}% 190
+\BOOKMARK [1][-]{section.6.4}{P2BIN}{chapter.6}% 191
+\BOOKMARK [1][-]{section.6.5}{AS2MSG}{chapter.6}% 192
+\BOOKMARK [0][-]{appendix.A}{Error Messages of AS}{}% 193
+\BOOKMARK [0][-]{appendix.B}{I/O Error Messages}{}% 194
+\BOOKMARK [0][-]{appendix.C}{Frequently Asked Questions}{}% 195
+\BOOKMARK [0][-]{appendix.D}{Pseudo-Instructions Collected}{}% 196
+\BOOKMARK [0][-]{appendix.E}{Predefined Symbols}{}% 197
+\BOOKMARK [0][-]{appendix.F}{Shipped Include Files}{}% 198
+\BOOKMARK [1][-]{section.F.1}{BITFUNCS.INC}{appendix.F}% 199
+\BOOKMARK [1][-]{section.F.2}{CTYPE.INC}{appendix.F}% 200
+\BOOKMARK [0][-]{appendix.G}{Acknowledgments}{}% 201
+\BOOKMARK [0][-]{appendix.H}{Changes since Version 1.3}{}% 202
+\BOOKMARK [0][-]{appendix.I}{Hints for the AS Source Code}{}% 203
+\BOOKMARK [1][-]{section.I.1}{Language Preliminaries}{appendix.I}% 204
+\BOOKMARK [1][-]{section.I.2}{Capsuling System dependencies}{appendix.I}% 205
+\BOOKMARK [1][-]{section.I.3}{System-Independent Files}{appendix.I}% 206
+\BOOKMARK [2][-]{subsection.I.3.1}{Modules Used by AS}{section.I.3}% 207
+\BOOKMARK [2][-]{subsection.I.3.2}{Additional Modules for the Tools}{section.I.3}% 208
+\BOOKMARK [1][-]{section.I.4}{Modules Needed During the Build of AS}{appendix.I}% 209
+\BOOKMARK [1][-]{section.I.5}{Generation of Message Files}{appendix.I}% 210
+\BOOKMARK [2][-]{subsection.I.5.1}{Format of the Source Files}{section.I.5}% 211
+\BOOKMARK [1][-]{section.I.6}{Creation of Documentation}{appendix.I}% 212
+\BOOKMARK [1][-]{section.I.7}{Test Suite}{appendix.I}% 213
+\BOOKMARK [1][-]{section.I.8}{Adding a New Target Processor}{appendix.I}% 214
+\BOOKMARK [1][-]{section.I.9}{Localization to a New Language}{appendix.I}% 215

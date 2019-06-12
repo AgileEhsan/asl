@@ -1,0 +1,363 @@
+\contentsline {chapter}{\numberline {1}Introduction}{11}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}License Agreement}{11}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}General Capabilities of the Assembler}{13}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Supported Platforms}{19}{section.1.3}% 
+\contentsline {chapter}{\numberline {2}Assembler Usage}{21}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Hardware Requirements}{21}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Delivery}{22}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Installation}{23}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Start-Up Command, Parameters}{28}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Format of the Input Files}{37}{section.2.5}% 
+\contentsline {section}{\numberline {2.6}Format of the Listing}{39}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}Symbol Conventions}{42}{section.2.7}% 
+\contentsline {section}{\numberline {2.8}Temporary Symbols}{44}{section.2.8}% 
+\contentsline {section}{\numberline {2.9}Named Temporary Symbols}{45}{section.2.9}% 
+\contentsline {subsection}{\numberline {2.9.1}Nameless Temporary Symbols}{46}{subsection.2.9.1}% 
+\contentsline {subsection}{\numberline {2.9.2}Composed Temporary Symbols}{47}{subsection.2.9.2}% 
+\contentsline {section}{\numberline {2.10}Formula Expressions}{48}{section.2.10}% 
+\contentsline {subsection}{\numberline {2.10.1}Integer Constants}{48}{subsection.2.10.1}% 
+\contentsline {subsection}{\numberline {2.10.2}Floating Point Constants}{50}{subsection.2.10.2}% 
+\contentsline {subsection}{\numberline {2.10.3}String Constants}{50}{subsection.2.10.3}% 
+\contentsline {subsection}{\numberline {2.10.4}Evaluation}{52}{subsection.2.10.4}% 
+\contentsline {subsection}{\numberline {2.10.5}Operators}{52}{subsection.2.10.5}% 
+\contentsline {subsection}{\numberline {2.10.6}Functions}{54}{subsection.2.10.6}% 
+\contentsline {section}{\numberline {2.11}Forward References and Other Disasters}{57}{section.2.11}% 
+\contentsline {section}{\numberline {2.12}Register Symbols}{61}{section.2.12}% 
+\contentsline {section}{\numberline {2.13}Sharefile}{62}{section.2.13}% 
+\contentsline {section}{\numberline {2.14}Processor Aliases}{62}{section.2.14}% 
+\contentsline {chapter}{\numberline {3}Pseudo Instructions}{65}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Definitions}{65}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}SET, EQU, and CONSTANT}{65}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}SFR and SFRB}{67}{subsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.1.3}XSFR and YSFR}{67}{subsection.3.1.3}% 
+\contentsline {subsection}{\numberline {3.1.4}LABEL}{68}{subsection.3.1.4}% 
+\contentsline {subsection}{\numberline {3.1.5}BIT}{68}{subsection.3.1.5}% 
+\contentsline {subsection}{\numberline {3.1.6}DBIT}{69}{subsection.3.1.6}% 
+\contentsline {subsection}{\numberline {3.1.7}PORT}{70}{subsection.3.1.7}% 
+\contentsline {subsection}{\numberline {3.1.8}REG and NAMEREG}{70}{subsection.3.1.8}% 
+\contentsline {subsection}{\numberline {3.1.9}LIV and RIV}{70}{subsection.3.1.9}% 
+\contentsline {subsection}{\numberline {3.1.10}CHARSET}{71}{subsection.3.1.10}% 
+\contentsline {subsection}{\numberline {3.1.11}CODEPAGE}{72}{subsection.3.1.11}% 
+\contentsline {subsection}{\numberline {3.1.12}ENUM}{73}{subsection.3.1.12}% 
+\contentsline {subsection}{\numberline {3.1.13}PUSHV and POPV}{73}{subsection.3.1.13}% 
+\contentsline {section}{\numberline {3.2}Code Modification}{74}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}ORG}{74}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}CPU}{79}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.3}SUPMODE, FPU, PMMU}{92}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.4}FULLPMMU}{93}{subsection.3.2.4}% 
+\contentsline {subsection}{\numberline {3.2.5}PADDING}{94}{subsection.3.2.5}% 
+\contentsline {subsection}{\numberline {3.2.6}PACKING}{94}{subsection.3.2.6}% 
+\contentsline {subsection}{\numberline {3.2.7}MAXMODE}{95}{subsection.3.2.7}% 
+\contentsline {subsection}{\numberline {3.2.8}EXTMODE and LWORDMODE}{95}{subsection.3.2.8}% 
+\contentsline {subsection}{\numberline {3.2.9}SRCMODE}{95}{subsection.3.2.9}% 
+\contentsline {subsection}{\numberline {3.2.10}BIGENDIAN}{96}{subsection.3.2.10}% 
+\contentsline {subsection}{\numberline {3.2.11}WRAPMODE}{96}{subsection.3.2.11}% 
+\contentsline {subsection}{\numberline {3.2.12}SEGMENT}{97}{subsection.3.2.12}% 
+\contentsline {subsection}{\numberline {3.2.13}PHASE and DEPHASE}{98}{subsection.3.2.13}% 
+\contentsline {subsection}{\numberline {3.2.14}SAVE and RESTORE}{99}{subsection.3.2.14}% 
+\contentsline {subsection}{\numberline {3.2.15}ASSUME}{100}{subsection.3.2.15}% 
+\contentsline {subsubsection}{6809}{101}{section*.2}% 
+\contentsline {subsubsection}{68HC11K4}{101}{section*.3}% 
+\contentsline {subsubsection}{68HC12X}{101}{section*.4}% 
+\contentsline {subsubsection}{68HC16}{101}{section*.5}% 
+\contentsline {subsubsection}{H8/500}{102}{section*.6}% 
+\contentsline {subsubsection}{MELPS740}{102}{section*.7}% 
+\contentsline {subsubsection}{MELPS7700/65816}{102}{section*.8}% 
+\contentsline {subsubsection}{MCS-196/296}{103}{section*.9}% 
+\contentsline {subsubsection}{8086}{103}{section*.10}% 
+\contentsline {subsubsection}{XA}{104}{section*.11}% 
+\contentsline {subsubsection}{29K}{104}{section*.12}% 
+\contentsline {subsubsection}{80C166/167}{104}{section*.13}% 
+\contentsline {subsubsection}{TLCS-47}{105}{section*.14}% 
+\contentsline {subsubsection}{ST6}{105}{section*.15}% 
+\contentsline {subsubsection}{ST9}{106}{section*.16}% 
+\contentsline {subsubsection}{78K2}{106}{section*.17}% 
+\contentsline {subsubsection}{320C3x}{106}{section*.18}% 
+\contentsline {subsubsection}{$\mu $PD78(C)10}{107}{section*.19}% 
+\contentsline {subsubsection}{75K0}{107}{section*.20}% 
+\contentsline {subsubsection}{F$^2$MC16L}{107}{section*.21}% 
+\contentsline {subsection}{\numberline {3.2.16}EMULATED}{108}{subsection.3.2.16}% 
+\contentsline {subsection}{\numberline {3.2.17}BRANCHEXT}{108}{subsection.3.2.17}% 
+\contentsline {section}{\numberline {3.3}Data Definitions}{109}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}DC[.Size]}{109}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}DS[.Size]}{110}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}DB,DW,DD,DQ, and DT}{111}{subsection.3.3.3}% 
+\contentsline {subsection}{\numberline {3.3.4}DS, DS8}{113}{subsection.3.3.4}% 
+\contentsline {subsection}{\numberline {3.3.5}BYT or FCB}{113}{subsection.3.3.5}% 
+\contentsline {subsection}{\numberline {3.3.6}BYTE}{113}{subsection.3.3.6}% 
+\contentsline {subsection}{\numberline {3.3.7}DC8}{114}{subsection.3.3.7}% 
+\contentsline {subsection}{\numberline {3.3.8}ADR or FDB}{114}{subsection.3.3.8}% 
+\contentsline {subsection}{\numberline {3.3.9}WORD}{114}{subsection.3.3.9}% 
+\contentsline {subsection}{\numberline {3.3.10}DW16}{114}{subsection.3.3.10}% 
+\contentsline {subsection}{\numberline {3.3.11}LONG}{115}{subsection.3.3.11}% 
+\contentsline {subsection}{\numberline {3.3.12}SINGLE, DOUBLE, and EXTENDED}{115}{subsection.3.3.12}% 
+\contentsline {subsection}{\numberline {3.3.13}FLOAT and DOUBLE}{115}{subsection.3.3.13}% 
+\contentsline {subsection}{\numberline {3.3.14}EFLOAT, BFLOAT, and TFLOAT}{115}{subsection.3.3.14}% 
+\contentsline {subsection}{\numberline {3.3.15}Qxx and LQxx}{116}{subsection.3.3.15}% 
+\contentsline {subsection}{\numberline {3.3.16}DATA}{116}{subsection.3.3.16}% 
+\contentsline {subsection}{\numberline {3.3.17}ZERO}{117}{subsection.3.3.17}% 
+\contentsline {subsection}{\numberline {3.3.18}FB and FW}{117}{subsection.3.3.18}% 
+\contentsline {subsection}{\numberline {3.3.19}ASCII and ASCIZ}{117}{subsection.3.3.19}% 
+\contentsline {subsection}{\numberline {3.3.20}STRING and RSTRING}{118}{subsection.3.3.20}% 
+\contentsline {subsection}{\numberline {3.3.21}FCC}{118}{subsection.3.3.21}% 
+\contentsline {subsection}{\numberline {3.3.22}DFS or RMB}{118}{subsection.3.3.22}% 
+\contentsline {subsection}{\numberline {3.3.23}BLOCK}{118}{subsection.3.3.23}% 
+\contentsline {subsection}{\numberline {3.3.24}SPACE}{119}{subsection.3.3.24}% 
+\contentsline {subsection}{\numberline {3.3.25}RES}{119}{subsection.3.3.25}% 
+\contentsline {subsection}{\numberline {3.3.26}BSS}{119}{subsection.3.3.26}% 
+\contentsline {subsection}{\numberline {3.3.27}DSB and DSW}{119}{subsection.3.3.27}% 
+\contentsline {subsection}{\numberline {3.3.28}DS16}{119}{subsection.3.3.28}% 
+\contentsline {subsection}{\numberline {3.3.29}ALIGN}{120}{subsection.3.3.29}% 
+\contentsline {subsection}{\numberline {3.3.30}LTORG}{120}{subsection.3.3.30}% 
+\contentsline {section}{\numberline {3.4}Macro Instructions}{120}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}MACRO}{121}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}IRP}{127}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {3.4.3}IRPC}{127}{subsection.3.4.3}% 
+\contentsline {subsection}{\numberline {3.4.4}REPT}{128}{subsection.3.4.4}% 
+\contentsline {subsection}{\numberline {3.4.5}WHILE}{128}{subsection.3.4.5}% 
+\contentsline {subsection}{\numberline {3.4.6}EXITM}{129}{subsection.3.4.6}% 
+\contentsline {subsection}{\numberline {3.4.7}SHIFT}{129}{subsection.3.4.7}% 
+\contentsline {subsection}{\numberline {3.4.8}MAXNEST}{130}{subsection.3.4.8}% 
+\contentsline {subsection}{\numberline {3.4.9}FUNCTION}{130}{subsection.3.4.9}% 
+\contentsline {section}{\numberline {3.5}Structures}{132}{section.3.5}% 
+\contentsline {subsection}{\numberline {3.5.1}Definition}{132}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.5.2}Usage}{133}{subsection.3.5.2}% 
+\contentsline {subsection}{\numberline {3.5.3}Nested Structures}{134}{subsection.3.5.3}% 
+\contentsline {subsection}{\numberline {3.5.4}Unions}{134}{subsection.3.5.4}% 
+\contentsline {subsection}{\numberline {3.5.5}Structures and Sections}{134}{subsection.3.5.5}% 
+\contentsline {section}{\numberline {3.6}Conditional Assembly}{135}{section.3.6}% 
+\contentsline {subsection}{\numberline {3.6.1}IF / ELSEIF / ENDIF}{135}{subsection.3.6.1}% 
+\contentsline {subsection}{\numberline {3.6.2}SWITCH / CASE / ELSECASE / ENDCASE}{137}{subsection.3.6.2}% 
+\contentsline {section}{\numberline {3.7}Listing Control}{138}{section.3.7}% 
+\contentsline {subsection}{\numberline {3.7.1}PAGE}{138}{subsection.3.7.1}% 
+\contentsline {subsection}{\numberline {3.7.2}NEWPAGE}{139}{subsection.3.7.2}% 
+\contentsline {subsection}{\numberline {3.7.3}MACEXP}{140}{subsection.3.7.3}% 
+\contentsline {subsection}{\numberline {3.7.4}LISTING}{140}{subsection.3.7.4}% 
+\contentsline {subsection}{\numberline {3.7.5}PRTINIT and PRTEXIT}{141}{subsection.3.7.5}% 
+\contentsline {subsection}{\numberline {3.7.6}TITLE}{142}{subsection.3.7.6}% 
+\contentsline {subsection}{\numberline {3.7.7}RADIX}{142}{subsection.3.7.7}% 
+\contentsline {subsection}{\numberline {3.7.8}OUTRADIX}{142}{subsection.3.7.8}% 
+\contentsline {section}{\numberline {3.8}Local Symbols}{143}{section.3.8}% 
+\contentsline {subsection}{\numberline {3.8.1}Basic Definition (SECTION/ENDSECTION)}{144}{subsection.3.8.1}% 
+\contentsline {subsection}{\numberline {3.8.2}Nesting and Scope Rules}{145}{subsection.3.8.2}% 
+\contentsline {subsection}{\numberline {3.8.3}PUBLIC and GLOBAL}{148}{subsection.3.8.3}% 
+\contentsline {subsection}{\numberline {3.8.4}FORWARD}{149}{subsection.3.8.4}% 
+\contentsline {subsection}{\numberline {3.8.5}Performance Aspects}{150}{subsection.3.8.5}% 
+\contentsline {section}{\numberline {3.9}Miscellaneous}{151}{section.3.9}% 
+\contentsline {subsection}{\numberline {3.9.1}SHARED}{151}{subsection.3.9.1}% 
+\contentsline {subsection}{\numberline {3.9.2}INCLUDE}{151}{subsection.3.9.2}% 
+\contentsline {subsection}{\numberline {3.9.3}BINCLUDE}{152}{subsection.3.9.3}% 
+\contentsline {subsection}{\numberline {3.9.4}MESSAGE, WARNING, ERROR, and FATAL}{153}{subsection.3.9.4}% 
+\contentsline {subsection}{\numberline {3.9.5}READ}{154}{subsection.3.9.5}% 
+\contentsline {subsection}{\numberline {3.9.6}RELAXED}{155}{subsection.3.9.6}% 
+\contentsline {subsection}{\numberline {3.9.7}END}{155}{subsection.3.9.7}% 
+\contentsline {chapter}{\numberline {4}Processor-specific Hints}{157}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}6811}{157}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}PowerPC}{159}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}DSP56xxx}{159}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}H8/300}{160}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}SH7000/7600/7700}{160}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}MELPS-4500}{164}{section.4.6}% 
+\contentsline {section}{\numberline {4.7}6502UNDOC}{164}{section.4.7}% 
+\contentsline {section}{\numberline {4.8}MELPS-740}{168}{section.4.8}% 
+\contentsline {section}{\numberline {4.9}MELPS-7700/65816}{168}{section.4.9}% 
+\contentsline {section}{\numberline {4.10}M16}{172}{section.4.10}% 
+\contentsline {section}{\numberline {4.11}4004/4040}{173}{section.4.11}% 
+\contentsline {section}{\numberline {4.12}MCS-48}{173}{section.4.12}% 
+\contentsline {section}{\numberline {4.13}MCS-51}{173}{section.4.13}% 
+\contentsline {section}{\numberline {4.14}MCS-251}{174}{section.4.14}% 
+\contentsline {section}{\numberline {4.15}8085UNDOC}{177}{section.4.15}% 
+\contentsline {section}{\numberline {4.16}8086..V35}{179}{section.4.16}% 
+\contentsline {section}{\numberline {4.17}8X30x}{182}{section.4.17}% 
+\contentsline {section}{\numberline {4.18}XA}{183}{section.4.18}% 
+\contentsline {section}{\numberline {4.19}AVR}{184}{section.4.19}% 
+\contentsline {section}{\numberline {4.20}Z80UNDOC}{184}{section.4.20}% 
+\contentsline {section}{\numberline {4.21}Z380}{185}{section.4.21}% 
+\contentsline {section}{\numberline {4.22}Z8 and eZ8}{186}{section.4.22}% 
+\contentsline {section}{\numberline {4.23}TLCS-900(L)}{188}{section.4.23}% 
+\contentsline {subsubsection}{Symbol Conventions}{189}{section*.22}% 
+\contentsline {subsubsection}{Syntax}{189}{section*.23}% 
+\contentsline {subsubsection}{Macro Processor}{190}{section*.24}% 
+\contentsline {subsubsection}{Output Format}{190}{section*.25}% 
+\contentsline {subsubsection}{Pseudo Instructions}{190}{section*.26}% 
+\contentsline {section}{\numberline {4.24}TLCS-90}{192}{section.4.24}% 
+\contentsline {section}{\numberline {4.25}TLCS-870}{192}{section.4.25}% 
+\contentsline {section}{\numberline {4.26}TLCS-47}{193}{section.4.26}% 
+\contentsline {section}{\numberline {4.27}TLCS-9000}{193}{section.4.27}% 
+\contentsline {section}{\numberline {4.28}29xxx}{194}{section.4.28}% 
+\contentsline {section}{\numberline {4.29}80C16x}{194}{section.4.29}% 
+\contentsline {section}{\numberline {4.30}PIC16C5x/16C8x}{196}{section.4.30}% 
+\contentsline {section}{\numberline {4.31}PIC 17C4x}{197}{section.4.31}% 
+\contentsline {section}{\numberline {4.32}ST6}{198}{section.4.32}% 
+\contentsline {section}{\numberline {4.33}ST7}{199}{section.4.33}% 
+\contentsline {section}{\numberline {4.34}ST9}{199}{section.4.34}% 
+\contentsline {section}{\numberline {4.35}6804}{200}{section.4.35}% 
+\contentsline {section}{\numberline {4.36}TMS3201x}{201}{section.4.36}% 
+\contentsline {section}{\numberline {4.37}TMS320C2x}{201}{section.4.37}% 
+\contentsline {section}{\numberline {4.38}TMS320C3x}{202}{section.4.38}% 
+\contentsline {section}{\numberline {4.39}TMS9900}{202}{section.4.39}% 
+\contentsline {section}{\numberline {4.40}TMS70Cxx}{203}{section.4.40}% 
+\contentsline {section}{\numberline {4.41}TMS370xxx}{204}{section.4.41}% 
+\contentsline {section}{\numberline {4.42}MSP430}{205}{section.4.42}% 
+\contentsline {section}{\numberline {4.43}COP8 \& SC/MP}{205}{section.4.43}% 
+\contentsline {section}{\numberline {4.44}SC144xxx}{205}{section.4.44}% 
+\contentsline {section}{\numberline {4.45}75K0}{206}{section.4.45}% 
+\contentsline {section}{\numberline {4.46}78K0}{208}{section.4.46}% 
+\contentsline {section}{\numberline {4.47}78K2}{208}{section.4.47}% 
+\contentsline {section}{\numberline {4.48}uPD772x}{208}{section.4.48}% 
+\contentsline {section}{\numberline {4.49}F2MC16L}{209}{section.4.49}% 
+\contentsline {chapter}{\numberline {5}File Formats}{211}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Code Files}{211}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Debug Files}{214}{section.5.2}% 
+\contentsline {chapter}{\numberline {6}Utility Programs}{219}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}PLIST}{220}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}BIND}{221}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}P2HEX}{222}{section.6.3}% 
+\contentsline {section}{\numberline {6.4}P2BIN}{226}{section.6.4}% 
+\contentsline {section}{\numberline {6.5}AS2MSG}{228}{section.6.5}% 
+\contentsline {chapter}{\numberline {A}Error Messages of AS}{229}{appendix.A}% 
+\contentsline {chapter}{\numberline {B}I/O Error Messages}{271}{appendix.B}% 
+\contentsline {chapter}{\numberline {C}Frequently Asked Questions}{275}{appendix.C}% 
+\contentsline {chapter}{\numberline {D}Pseudo-Instructions Collected}{279}{appendix.D}% 
+\contentsline {subsubsection}{Instructions that are always available}{279}{section*.27}% 
+\contentsline {subsubsection}{Motorola 680x0}{280}{section*.28}% 
+\contentsline {subsubsection}{Motorola 56xxx}{280}{section*.29}% 
+\contentsline {subsubsection}{PowerPC}{280}{section*.30}% 
+\contentsline {subsubsection}{Motorola M-Core}{280}{section*.31}% 
+\contentsline {subsubsection}{Motorola XGATE}{280}{section*.32}% 
+\contentsline {subsubsection}{Motorola 68xx/Hitachi 6309}{280}{section*.33}% 
+\contentsline {subsubsection}{Motorola/Freescale 6805/68HC(S)08}{281}{section*.34}% 
+\contentsline {subsubsection}{Motorola 6809/Hitachi 6309}{281}{section*.35}% 
+\contentsline {subsubsection}{Motorola 68HC12}{281}{section*.36}% 
+\contentsline {subsubsection}{Motorola 68HC16}{281}{section*.37}% 
+\contentsline {subsubsection}{Freescale 68RS08}{281}{section*.38}% 
+\contentsline {subsubsection}{Hitachi H8/300(L/H)}{281}{section*.39}% 
+\contentsline {subsubsection}{Hitachi H8/500}{282}{section*.40}% 
+\contentsline {subsubsection}{Hitachi SH7x00}{282}{section*.41}% 
+\contentsline {subsubsection}{65xx/MELPS-740}{282}{section*.42}% 
+\contentsline {subsubsection}{65816/MELPS-7700}{282}{section*.43}% 
+\contentsline {subsubsection}{Mitsubishi MELPS-4500}{282}{section*.44}% 
+\contentsline {subsubsection}{Mitsubishi M16}{282}{section*.45}% 
+\contentsline {subsubsection}{Mitsubishi M16C}{283}{section*.46}% 
+\contentsline {subsubsection}{Intel 4004}{283}{section*.47}% 
+\contentsline {subsubsection}{Intel 8008}{283}{section*.48}% 
+\contentsline {subsubsection}{Intel MCS-48}{283}{section*.49}% 
+\contentsline {subsubsection}{Intel MCS-(2)51}{283}{section*.50}% 
+\contentsline {subsubsection}{Intel MCS-96}{283}{section*.51}% 
+\contentsline {subsubsection}{Intel 8080/8085}{284}{section*.52}% 
+\contentsline {subsubsection}{Intel 8080/8085}{284}{section*.53}% 
+\contentsline {subsubsection}{Intel i960}{284}{section*.54}% 
+\contentsline {subsubsection}{Signetics 8X30x}{284}{section*.55}% 
+\contentsline {subsubsection}{Philips XA}{284}{section*.56}% 
+\contentsline {subsubsection}{Atmel AVR}{284}{section*.57}% 
+\contentsline {subsubsection}{AMD 29K}{285}{section*.58}% 
+\contentsline {subsubsection}{Siemens 80C166/167}{285}{section*.59}% 
+\contentsline {subsubsection}{Zilog Zx80}{285}{section*.60}% 
+\contentsline {subsubsection}{Zilog Z8}{285}{section*.61}% 
+\contentsline {subsubsection}{Xilinx KCPSM}{285}{section*.62}% 
+\contentsline {subsubsection}{Xilinx KCPSM3}{285}{section*.63}% 
+\contentsline {subsubsection}{LatticeMico8}{286}{section*.64}% 
+\contentsline {subsubsection}{Toshiba TLCS-900}{286}{section*.65}% 
+\contentsline {subsubsection}{Toshiba TLCS-90}{286}{section*.66}% 
+\contentsline {subsubsection}{Toshiba TLCS-870}{286}{section*.67}% 
+\contentsline {subsubsection}{Toshiba TLCS-47(0(A))}{286}{section*.68}% 
+\contentsline {subsubsection}{Toshiba TLCS-9000}{286}{section*.69}% 
+\contentsline {subsubsection}{Microchip PIC16C5x}{287}{section*.70}% 
+\contentsline {subsubsection}{Microchip PIC16C8x}{287}{section*.71}% 
+\contentsline {subsubsection}{Microchip PIC17C42}{287}{section*.72}% 
+\contentsline {subsubsection}{SGS-Thomson ST6}{287}{section*.73}% 
+\contentsline {subsubsection}{SGS-Thomson ST7}{287}{section*.74}% 
+\contentsline {subsubsection}{SGS-Thomson ST9}{287}{section*.75}% 
+\contentsline {subsubsection}{6804}{288}{section*.76}% 
+\contentsline {subsubsection}{Texas TM3201x}{288}{section*.77}% 
+\contentsline {subsubsection}{Texas TM32C02x}{288}{section*.78}% 
+\contentsline {subsubsection}{Texas TMS320C3x}{288}{section*.79}% 
+\contentsline {subsubsection}{Texas TM32C020x/TM32C05x/TM32C054x}{288}{section*.80}% 
+\contentsline {subsubsection}{Texas TMS320C6x}{288}{section*.81}% 
+\contentsline {subsubsection}{Texas TMS9900}{289}{section*.82}% 
+\contentsline {subsubsection}{Texas TMS70Cxx}{289}{section*.83}% 
+\contentsline {subsubsection}{Texas TMS370}{289}{section*.84}% 
+\contentsline {subsubsection}{Texas MSP430}{289}{section*.85}% 
+\contentsline {subsubsection}{National SC/MP}{289}{section*.86}% 
+\contentsline {subsubsection}{National INS807x}{289}{section*.87}% 
+\contentsline {subsubsection}{National COP4}{290}{section*.88}% 
+\contentsline {subsubsection}{National COP8}{290}{section*.89}% 
+\contentsline {subsubsection}{National COP8}{290}{section*.90}% 
+\contentsline {subsubsection}{Fairchild ACE}{290}{section*.91}% 
+\contentsline {subsubsection}{NEC $\mu $PD78(C)1x}{290}{section*.92}% 
+\contentsline {subsubsection}{NEC 75K0}{291}{section*.93}% 
+\contentsline {subsubsection}{NEC 78K0}{291}{section*.94}% 
+\contentsline {subsubsection}{NEC 78K2}{291}{section*.95}% 
+\contentsline {subsubsection}{NEC $\mu $PD772x}{291}{section*.96}% 
+\contentsline {subsubsection}{NEC $\mu $PD772x}{291}{section*.97}% 
+\contentsline {subsubsection}{Symbios Logic SYM53C8xx}{291}{section*.98}% 
+\contentsline {subsubsection}{Fujitsu F$^{2}$MC8L}{292}{section*.99}% 
+\contentsline {subsubsection}{Fujitsu F$^{2}$MC16L}{292}{section*.100}% 
+\contentsline {subsubsection}{Mitsubishi M16C}{292}{section*.101}% 
+\contentsline {subsubsection}{XMOS XS1}{292}{section*.102}% 
+\contentsline {chapter}{\numberline {E}Predefined Symbols}{293}{appendix.E}% 
+\contentsline {chapter}{\numberline {F}Shipped Include Files}{297}{appendix.F}% 
+\contentsline {section}{\numberline {F.1}BITFUNCS.INC}{297}{section.F.1}% 
+\contentsline {section}{\numberline {F.2}CTYPE.INC}{298}{section.F.2}% 
+\contentsline {chapter}{\numberline {G}Acknowledgments}{301}{appendix.G}% 
+\contentsline {chapter}{\numberline {H}Changes since Version 1.3}{303}{appendix.H}% 
+\contentsline {chapter}{\numberline {I}Hints for the AS Source Code}{319}{appendix.I}% 
+\contentsline {section}{\numberline {I.1}Language Preliminaries}{319}{section.I.1}% 
+\contentsline {section}{\numberline {I.2}Capsuling System dependencies}{320}{section.I.2}% 
+\contentsline {section}{\numberline {I.3}System-Independent Files}{321}{section.I.3}% 
+\contentsline {subsection}{\numberline {I.3.1}Modules Used by AS}{321}{subsection.I.3.1}% 
+\contentsline {subsubsection}{as.c}{321}{section*.103}% 
+\contentsline {subsubsection}{asmallg.c}{321}{section*.104}% 
+\contentsline {subsubsection}{asmcode.c}{322}{section*.105}% 
+\contentsline {subsubsection}{asmdebug.c}{322}{section*.106}% 
+\contentsline {subsubsection}{asmdef.c}{322}{section*.107}% 
+\contentsline {subsubsection}{asmfnums.c}{322}{section*.108}% 
+\contentsline {subsubsection}{asmif.c}{322}{section*.109}% 
+\contentsline {subsubsection}{asminclist.c}{322}{section*.110}% 
+\contentsline {subsubsection}{asmitree.c}{323}{section*.111}% 
+\contentsline {subsubsection}{asmmac.c}{323}{section*.112}% 
+\contentsline {subsubsection}{asmpars.c}{323}{section*.113}% 
+\contentsline {subsubsection}{asmsub.c}{323}{section*.114}% 
+\contentsline {subsubsection}{bpemu.c}{323}{section*.115}% 
+\contentsline {subsubsection}{chunks.c}{324}{section*.116}% 
+\contentsline {subsubsection}{cmdarg.c}{324}{section*.117}% 
+\contentsline {subsubsection}{codepseudo.c}{324}{section*.118}% 
+\contentsline {subsubsection}{codevars.c}{324}{section*.119}% 
+\contentsline {subsubsection}{endian.c}{325}{section*.120}% 
+\contentsline {subsubsection}{headids.c}{325}{section*.121}% 
+\contentsline {subsubsection}{ioerrs.c}{325}{section*.122}% 
+\contentsline {subsubsection}{nlmessages.c}{325}{section*.123}% 
+\contentsline {subsubsection}{nls.c}{325}{section*.124}% 
+\contentsline {subsubsection}{stdhandl.c}{326}{section*.125}% 
+\contentsline {subsubsection}{stringlists.c}{326}{section*.126}% 
+\contentsline {subsubsection}{strutil.c}{326}{section*.127}% 
+\contentsline {subsubsection}{version.c}{326}{section*.128}% 
+\contentsline {subsubsection}{code????.c}{326}{section*.129}% 
+\contentsline {subsection}{\numberline {I.3.2}Additional Modules for the Tools}{326}{subsection.I.3.2}% 
+\contentsline {subsubsection}{hex.c}{326}{section*.130}% 
+\contentsline {subsubsection}{p2bin.c}{327}{section*.131}% 
+\contentsline {subsubsection}{p2hex.c}{327}{section*.132}% 
+\contentsline {subsubsection}{pbind.c}{327}{section*.133}% 
+\contentsline {subsubsection}{plist.c}{327}{section*.134}% 
+\contentsline {subsubsection}{toolutils.c}{327}{section*.135}% 
+\contentsline {section}{\numberline {I.4}Modules Needed During the Build of AS}{327}{section.I.4}% 
+\contentsline {subsubsection}{a2k.c}{327}{section*.136}% 
+\contentsline {subsubsection}{addcr.c}{328}{section*.137}% 
+\contentsline {subsubsection}{bincmp.c}{328}{section*.138}% 
+\contentsline {subsubsection}{findhyphen.c}{328}{section*.139}% 
+\contentsline {subsubsection}{grhyph.c}{328}{section*.140}% 
+\contentsline {subsubsection}{rescomp.c}{328}{section*.141}% 
+\contentsline {subsubsection}{tex2doc.c}{328}{section*.142}% 
+\contentsline {subsubsection}{tex2html.c}{329}{section*.143}% 
+\contentsline {subsubsection}{umlaut.c and unumlaut.c}{329}{section*.144}% 
+\contentsline {subsubsection}{ushyph.c}{329}{section*.145}% 
+\contentsline {section}{\numberline {I.5}Generation of Message Files}{329}{section.I.5}% 
+\contentsline {subsection}{\numberline {I.5.1}Format of the Source Files}{329}{subsection.I.5.1}% 
+\contentsline {section}{\numberline {I.6}Creation of Documentation}{331}{section.I.6}% 
+\contentsline {section}{\numberline {I.7}Test Suite}{333}{section.I.7}% 
+\contentsline {section}{\numberline {I.8}Adding a New Target Processor}{333}{section.I.8}% 
+\contentsline {subsubsection}{Choosing the Processor's Name}{333}{section*.146}% 
+\contentsline {subsubsection}{Definition of the Code Generator Module}{334}{section*.147}% 
+\contentsline {subsubsection}{Writing the Code Generator itself}{339}{section*.148}% 
+\contentsline {subsubsection}{Modifications of Tools}{340}{section*.149}% 
+\contentsline {section}{\numberline {I.9}Localization to a New Language}{340}{section.I.9}% 
