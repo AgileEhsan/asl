@@ -1,7 +1,7 @@
 include Makefile.def
 
-CURRDIR=./
-TAPE=/dev/ntape
+CURRDIR=.\\
+
 DATE=`date +"%d%m%Y"`
 
 include makedefs.src
